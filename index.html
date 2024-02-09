@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<p>Для будь-якого натурального числа <b>n>2</b> рівняння <br>
+    <i>a<sup>n</sup> + b<sup>n</sup> = c<sup>n</sup></i> <b>не має рішень</b> при <br> цілих ненульових числах a, b, c</p>
+
+<h1>Харківський національний університет радіоелектроніки</h1>
+
+<ul>
+    <li>
+        <h2>Факультет інженерії та комп'ютерних технологій</h2>
+        <ul>
+            <li>
+                <h3>Кафедра комп'ютерних наук</h3>
+                <ul>
+                    <li>Програмування</li>
+                    <li>Інформаційні технології</li>
+                    <li>Штучний інтелект</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Кафедра електроніки та телекомунікацій</h3>
+                <ul>
+                    <li>Мікроелектроніка</li>
+                    <li>Телекомунікаційні системи</li>
+                    <li>Радіотехніка</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h2>Факультет електроніки та прикладної математики</h2>
+        <ul>
+            <li>
+                <h3>Кафедра радіотехнічних систем</h3>
+                <ul>
+                    <li>Радіолокація</li>
+                    <li>Антени та пристрої зв'язку</li>
+                    <li>Електромагнітна сумісність</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Кафедра прикладної математики</h3>
+                <ul>
+                    <li>Диференціальні рівняння</li>
+                    <li>Чисельні методи</li>
+                    <li>Математичне моделювання</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Курс валют</h2>
+
+<table>
+    <tr>
+        <th>Валюта</th>
+        <th>Курс до долара</th>
+    </tr>
+    <tr>
+        <td>Долар</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Євро</td>
+        <td>0,9</td>
+    </tr>
+    <tr>
+        <td>Злотий</td>
+        <td>3,91</td>
+    </tr>
+    <tr>
+        <td>Гривні</td>
+        <td>38,26</td>
+    </tr>
+</table>
+
+
+<h2>Голосування</h2>
+
+<form action="submit_vote.php" method="post">
+    <label>
+        <input type="radio" name="vote" value="option1">
+        Варіант 1
+    </label>
+
+    <label>
+        <input type="radio" name="vote" value="option2">
+        Варіант 2
+    </label>
+
+    <label>
+        <input type="radio" name="vote" value="option3">
+        Варіант 3
+    </label>
+
+    <input type="submit" value="Проголосувати">
+</form>
+
+<h1>Зміст сторінки</h1>
+
+<ul>
+    <li><a href="#section1">Розділ 1</a></li>
+    <li><a href="#section2">Розділ 2</a></li>
+    <li><a href="#section3">Розділ 3</a></li>
+</ul>
+
+<section id="section1">
+    <h2>Розділ 1</h2>
+    <p>Зміст розділу 1...</p>
+</section>
+
+<section id="section2">
+    <h2>Розділ 2</h2>
+    <p>Зміст розділу 2...</p>
+</section>
+
+<section id="section3">
+    <h2>Розділ 3</h2>
+    <p>Зміст розділу 3...</p>
+</section>
+</body>
+</html>
